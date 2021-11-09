@@ -24,12 +24,20 @@ body {
   margin-bottom: 10px;
 }
 
+#artigo {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 #tituloPrincipal {
   color: purple;
 }
 
 #paragrafoPrincipal {
-  line-height: 2em;
+  line-height: 2em
+}
+
+#sessao {
+  text-decoration: underline
 }
 
 #rodape {
