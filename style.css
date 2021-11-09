@@ -43,11 +43,11 @@ body {
 }
 
 #tituloPrincipal {
- color:purple;
+  color:purple;
 }
 
 span {
-  color: red;
+  color:red;
   font-style: italic;
 }
 
