@@ -6,22 +6,49 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 180px;
-  background-color: black;
+  height: 60px;
+  background-color: #2C2C34;
+  border: 2px solid black;
 }
 
 #titulo {
-  color: white;
+  color: #D8D8F6;
   text-align: center;
   margin: 2px;
   font-size: 45px;
 }
 
+#navegacao {
+  margin-top:70px;
+  background-color: #494850;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+#menuPrincipal {
+  color: #D8D8F6;
+  margin-left: 6px;
+}
+
+div #navegador {
+  display: inline-block;
+}
+
+div .links {
+  color: #D8D8F6;
+  display: inline-block;
+}
+
+a.links {
+  margin-left: 30px;
+}
+
 #minha_foto {
-  overflow: scroll;
   width: 8cm;
-  margin-top: 180px;
+  margin-top: 10px;
   margin-bottom: 10px;
+  padding: 5px;
+  background-color: #494850;
 }
 
 #artigo {
@@ -29,32 +56,49 @@ body {
 }
 
 #tituloPrincipal {
-  color: purple;
+  color: #2C2C34;
 }
 
 #paragrafoPrincipal {
-  line-height: 2em;
+  line-height: 0.8cm;
+  text-align: justify;
+}
+
+.lado-esquerdo {
+  margin-left: 10px;
+  display: inline-block;
+  width: 45%
+}
+
+.lado-direito {
+  width:30%;
+  float: right;
+  font-style: italic;
+  line-height: 30px;
 }
 
 #rodape {
   bottom: 0;
-  background-color: black;
+  background-color: #2C2C34;
   width: 100%;
   height: 90px;
   margin: 3px;
 }
 
 #titulorodape {
-  color: white;
+  color: #D8D8F6;
+  padding-top: 15px;
+  padding-left: 15px;
 }
 
 #site {
-  color: red;
+  color: #D8D8F6;
   font-family: fantasy;
+  padding-left: 15px;
 }
 
 span {
-  color: red;
+  color: #D8D8F6;
   font-style: italic;
 }
 
