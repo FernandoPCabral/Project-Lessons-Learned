@@ -25,7 +25,7 @@ body {
 }
 
 #artigo {
-  font-family: arial,sans-serif;
+  font-family: arial, sans-serif;
 }
 
 #tituloPrincipal {
@@ -33,11 +33,11 @@ body {
 }
 
 #paragrafoPrincipal {
-  line-height: 2em
+  line-height: 2em;
 }
 
 #sessao {
-  text-decoration: underline
+  text-decoration: underline;
 }
 
 #rodape {
